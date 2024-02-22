@@ -1,7 +1,8 @@
+"use strict";
 /*
 
 Exercício:
-Considere um sistema de cadastro de usuários onde precisamos armazenar informações sobre os usuários. 
+Considere um sistema de cadastro de usuários onde precisamos armazenar informações sobre os usuários.
 Vamos criar variáveis e objetos para representar diferentes tipos de dados relacionados a um usuário.
 
 1- Crie as seguintes variáveis primitivas:
@@ -22,19 +23,18 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
 
 */
 //1
-let nomeCompleto: string = "Carlos Miguel A. C.";
-let idade: number = 22;
-let email: string = "carlos.almeida@aluno.ifsp.edu.br";
-let isAtivo: boolean;
-
+let nomeCompleto = "Carlos Miguel A. C.";
+let idade = 22;
+let email = "carlos.almeida@aluno.ifsp.edu.br";
+let isAtivo;
 //2
-let usuario: object = {nome: "Carlos", sobrenome: "Miguel", idade: "22"};
-let contato: object = {email: "carlos.almeida@aluno.ifsp.edu.br", telefone: "11995452364", }
+let usuario = { nome: "Carlos", sobrenome: "Miguel", idade: "22" };
+let contato = { email: "carlos.almeida@aluno.ifsp.edu.br", telefone: "11995452364", };
 console.log(usuario);
 /*
 
 Exercício:
-Vamos criar um sistema de gestão de produtos para uma loja online. 
+Vamos criar um sistema de gestão de produtos para uma loja online.
 Precisamos armazenar informações sobre diferentes produtos disponíveis na loja. Vamos criar variáveis e objetos para representar esses produtos.
 
 01 - Crie as seguintes variáveis primitivas:
@@ -52,4 +52,4 @@ Precisamos armazenar informações sobre diferentes produtos disponíveis na loj
     categorias: array de strings, representando as categorias às quais o produto pertence.
     Em seguida, imprima todas as variáveis e propriedades do objeto produto usando console.log.
 
-*/
+*/ 
