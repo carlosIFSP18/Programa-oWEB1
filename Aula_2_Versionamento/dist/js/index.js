@@ -26,11 +26,40 @@ Vamos criar variáveis e objetos para representar diferentes tipos de dados rela
 let nomeCompleto = "Carlos Miguel A. C.";
 let idade = 22;
 let email = "carlos.almeida@aluno.ifsp.edu.br";
-let isAtivo;
+let isAtivo = true;
 //2
-let usuario = { nome: "Carlos", sobrenome: "Miguel", idade: "22" };
-let contato = { email: "carlos.almeida@aluno.ifsp.edu.br", telefone: "11995452364", };
-console.log(usuario);
+let usuario;
+usuario = {
+    nome: "Carlos",
+    sobrenome: "Miguel",
+    idade: 23,
+    contato: {
+        email: "carlos@aluno.ifsp.edu.br",
+        telefone: "11972858343"
+    }
+};
+//INICIALIZANDO A VARIÁVEL
+let contato1;
+contato1 = {
+    email: "carlos@aluno.ifsp.edu.br",
+    telefone: "11972858343"
+};
+//Após inicializar, pra mudar algum dado da variável é só fazer isso:
+contato1.email = "";
+let user;
+user = {
+    nome: "Carlos",
+    sobrenome: "Miguel",
+    idade: 23,
+    contato: {
+        email: "carlos@aluno.ifsp.edu.br",
+        telefone: "11972858343"
+    }
+};
+console.log(usuario, user);
+//let usuario: object = {nome: "Carlos", sobrenome: "Miguel", idade: "22"};
+//let contato: object = {email: "carlos.almeida@aluno.ifsp.edu.br", telefone: "11995452364"};
+//console.log(usuario);
 /*
 
 Exercício:
@@ -52,4 +81,10 @@ Precisamos armazenar informações sobre diferentes produtos disponíveis na loj
     categorias: array de strings, representando as categorias às quais o produto pertence.
     Em seguida, imprima todas as variáveis e propriedades do objeto produto usando console.log.
 
-*/ 
+*/
+//1
+///let nomeProduto: string = "sapato";
+//let preco: number = 44;
+//let disponivel: boolean = true;
+//2
+//let produto: object = {nome: "all star", preco: 279.90 , estoque: 90, categorias: []}
